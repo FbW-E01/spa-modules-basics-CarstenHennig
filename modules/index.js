@@ -1,8 +1,8 @@
-import { hoverHeader as hover } from "./hover.js";
-hover.hoverHeader();
+import * as Hover from "./hover.js";
+Hover.hoverHeader();
 
-import { scrollWindow as scroll } from "./scroll.js";
-scroll.scrollWindow();
+import * as Scroll from "./scroll.js";
+Scroll.scrollWindow();
 
-import { clickImages as click } from "./click.js";
-click.clickImages();
+import * as Click from "./click.js";
+Click.clickImages();
